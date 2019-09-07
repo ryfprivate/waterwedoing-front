@@ -1,18 +1,14 @@
-import React from "react";
-import Header from "./Components/Header";
-import logo from "./logo.svg";
-import "./App.css";
+import React from 'react'
+import FormInput from './Components/FormInput'
+import './App.css'
 
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 function App() {
-  return (
-    <Router>
-      <div className="App">
-        <Header />
+    return (
+      <div>
+        <FormInput />
       </div>
-    </Router>
-  );
+    )
 }
 
-export default App;
+export default App
