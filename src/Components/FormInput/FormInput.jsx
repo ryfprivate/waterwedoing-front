@@ -11,6 +11,7 @@ const suburbArray = []
 
 suburbs.map((value, key) => {
     suburbArray.push(value['suburb'])
+    return key
 })
 
 const useStyles = makeStyles(theme => ({
