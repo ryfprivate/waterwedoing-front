@@ -3,28 +3,19 @@ import Button from '../Button'
 import TextInput from '../TextInput'
 import styled from 'styled-components'
 
-const StyledButton = styled(Button)`
-    && {
-        margin: auto;
-        color: green;
-        background-color: black;
-    }
-`
+const StyledButton = styled(Button)``
 
-const StyledTextInput = styled(TextInput)`
-    && {
-        color: green;
-    }
-`
+const StyledTextInput = styled(TextInput)``
 
 const Wrapper = styled.div`
-    margin-top: 15%;
+    width: 50%;
+    margin: auto;
 `
 
 const InputBar = () => {
     return (
         <Wrapper>
-            <StyledTextInput label="Input asdfa" />
+            <StyledTextInput label="Input your commute destination" />
             <StyledButton label="Go" color="default" />
         </Wrapper>
     )
