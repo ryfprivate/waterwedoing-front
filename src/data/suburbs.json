@@ -1,0 +1,572 @@
+[
+ {
+   "suburb": "Acacia Ridge"
+ },
+ {
+   "suburb": "Albion"
+ },
+ {
+   "suburb": "Alderley"
+ },
+ {
+   "suburb": "Algester"
+ },
+ {
+   "suburb": "Annerley"
+ },
+ {
+   "suburb": "Anstead"
+ },
+ {
+   "suburb": "Archerfield"
+ },
+ {
+   "suburb": "Ascot"
+ },
+ {
+   "suburb": "Ashgrove"
+ },
+ {
+   "suburb": "Aspley"
+ },
+ {
+   "suburb": "Auchenflower"
+ },
+ {
+   "suburb": "Bald Hills"
+ },
+ {
+   "suburb": "Balmoral"
+ },
+ {
+   "suburb": "Banks Creek"
+ },
+ {
+   "suburb": "Banyo"
+ },
+ {
+   "suburb": "Bardon"
+ },
+ {
+   "suburb": "Bellbowrie"
+ },
+ {
+   "suburb": "Belmont"
+ },
+ {
+   "suburb": "Boondall"
+ },
+ {
+   "suburb": "Bowen Hills"
+ },
+ {
+   "suburb": "Bracken Ridge"
+ },
+ {
+   "suburb": "Bridgeman Downs"
+ },
+ {
+   "suburb": "Brighton"
+ },
+ {
+   "suburb": "Brisbane Airport"
+ },
+ {
+   "suburb": "Brisbane City"
+ },
+ {
+   "suburb": "Brookfield"
+ },
+ {
+   "suburb": "Bulimba"
+ },
+ {
+   "suburb": "Burbank"
+ },
+ {
+   "suburb": "Calamvale"
+ },
+ {
+   "suburb": "Camp Hill"
+ },
+ {
+   "suburb": "Cannon Hill"
+ },
+ {
+   "suburb": "Carina"
+ },
+ {
+   "suburb": "Carina Heights"
+ },
+ {
+   "suburb": "Carindale"
+ },
+ {
+   "suburb": "Carseldine"
+ },
+ {
+   "suburb": "Chandler"
+ },
+ {
+   "suburb": "Chapel Hill"
+ },
+ {
+   "suburb": "Chelmer"
+ },
+ {
+   "suburb": "Chermside"
+ },
+ {
+   "suburb": "Chermside West"
+ },
+ {
+   "suburb": "Chuwar"
+ },
+ {
+   "suburb": "Clayfield"
+ },
+ {
+   "suburb": "Coopers Plains"
+ },
+ {
+   "suburb": "Coorparoo"
+ },
+ {
+   "suburb": "Corinda"
+ },
+ {
+   "suburb": "Darra"
+ },
+ {
+   "suburb": "Deagon"
+ },
+ {
+   "suburb": "Doolandella"
+ },
+ {
+   "suburb": "Drewvale"
+ },
+ {
+   "suburb": "Durack"
+ },
+ {
+   "suburb": "Dutton Park"
+ },
+ {
+   "suburb": "Eagle Farm"
+ },
+ {
+   "suburb": "East Brisbane"
+ },
+ {
+   "suburb": "Eight Mile Plains"
+ },
+ {
+   "suburb": "Ellen Grove"
+ },
+ {
+   "suburb": "England Creek"
+ },
+ {
+   "suburb": "Enoggera"
+ },
+ {
+   "suburb": "Enoggera Reservoir"
+ },
+ {
+   "suburb": "Everton Park"
+ },
+ {
+   "suburb": "Fairfield"
+ },
+ {
+   "suburb": "Ferny Grove"
+ },
+ {
+   "suburb": "Fig Tree Pocket"
+ },
+ {
+   "suburb": "Fitzgibbon"
+ },
+ {
+   "suburb": "Forest Lake"
+ },
+ {
+   "suburb": "Fortitude Valley"
+ },
+ {
+   "suburb": "Gaythorne"
+ },
+ {
+   "suburb": "Geebung"
+ },
+ {
+   "suburb": "Gordon Park"
+ },
+ {
+   "suburb": "Graceville"
+ },
+ {
+   "suburb": "Grange"
+ },
+ {
+   "suburb": "Greenslopes"
+ },
+ {
+   "suburb": "Gumdale"
+ },
+ {
+   "suburb": "Hamilton"
+ },
+ {
+   "suburb": "Hawthorne"
+ },
+ {
+   "suburb": "Heathwood"
+ },
+ {
+   "suburb": "Hemmant"
+ },
+ {
+   "suburb": "Hendra"
+ },
+ {
+   "suburb": "Herston"
+ },
+ {
+   "suburb": "Highgate Hill"
+ },
+ {
+   "suburb": "Holland Park"
+ },
+ {
+   "suburb": "Holland Park West"
+ },
+ {
+   "suburb": "Inala"
+ },
+ {
+   "suburb": "Indooroopilly"
+ },
+ {
+   "suburb": "Jamboree Heights"
+ },
+ {
+   "suburb": "Jindalee"
+ },
+ {
+   "suburb": "Kalinga"
+ },
+ {
+   "suburb": "Kangaroo Point"
+ },
+ {
+   "suburb": "Karana Downs"
+ },
+ {
+   "suburb": "Karawatha"
+ },
+ {
+   "suburb": "Kedron"
+ },
+ {
+   "suburb": "Kelvin Grove"
+ },
+ {
+   "suburb": "Kenmore"
+ },
+ {
+   "suburb": "Kenmore Hills"
+ },
+ {
+   "suburb": "Keperra"
+ },
+ {
+   "suburb": "Kholo"
+ },
+ {
+   "suburb": "Kuraby"
+ },
+ {
+   "suburb": "Lake Manchester"
+ },
+ {
+   "suburb": "Larapinta"
+ },
+ {
+   "suburb": "Lota"
+ },
+ {
+   "suburb": "Lutwyche"
+ },
+ {
+   "suburb": "Lytton"
+ },
+ {
+   "suburb": "Macgregor"
+ },
+ {
+   "suburb": "Mackenzie"
+ },
+ {
+   "suburb": "Manly"
+ },
+ {
+   "suburb": "Manly West"
+ },
+ {
+   "suburb": "Mansfield"
+ },
+ {
+   "suburb": "McDowall"
+ },
+ {
+   "suburb": "Middle Park"
+ },
+ {
+   "suburb": "Milton"
+ },
+ {
+   "suburb": "Mitchelton"
+ },
+ {
+   "suburb": "Moggill"
+ },
+ {
+   "suburb": "Moorooka"
+ },
+ {
+   "suburb": "Morningside"
+ },
+ {
+   "suburb": "Mt Coot-tha"
+ },
+ {
+   "suburb": "Mt Crosby"
+ },
+ {
+   "suburb": "Mt Gravatt"
+ },
+ {
+   "suburb": "Mt Gravatt East"
+ },
+ {
+   "suburb": "Mt Ommaney"
+ },
+ {
+   "suburb": "Murarrie"
+ },
+ {
+   "suburb": "Nathan"
+ },
+ {
+   "suburb": "New Farm"
+ },
+ {
+   "suburb": "Newmarket"
+ },
+ {
+   "suburb": "Newstead"
+ },
+ {
+   "suburb": "Norman Park"
+ },
+ {
+   "suburb": "Northgate"
+ },
+ {
+   "suburb": "Nudgee"
+ },
+ {
+   "suburb": "Nudgee Beach"
+ },
+ {
+   "suburb": "Nundah"
+ },
+ {
+   "suburb": "Oxley"
+ },
+ {
+   "suburb": "Paddington"
+ },
+ {
+   "suburb": "Pallara"
+ },
+ {
+   "suburb": "Parkinson"
+ },
+ {
+   "suburb": "Petrie Terrace"
+ },
+ {
+   "suburb": "Pinjarra Hills"
+ },
+ {
+   "suburb": "Pinkenba"
+ },
+ {
+   "suburb": "Port of Brisbane"
+ },
+ {
+   "suburb": "Pullenvale"
+ },
+ {
+   "suburb": "Ransome"
+ },
+ {
+   "suburb": "Red Hill"
+ },
+ {
+   "suburb": "Richlands"
+ },
+ {
+   "suburb": "Riverhills"
+ },
+ {
+   "suburb": "Robertson"
+ },
+ {
+   "suburb": "Rochedale"
+ },
+ {
+   "suburb": "Rocklea"
+ },
+ {
+   "suburb": "Runcorn"
+ },
+ {
+   "suburb": "Salisbury"
+ },
+ {
+   "suburb": "Sandgate"
+ },
+ {
+   "suburb": "Seven Hills"
+ },
+ {
+   "suburb": "Seventeen Mile Rocks"
+ },
+ {
+   "suburb": "Sherwood"
+ },
+ {
+   "suburb": "Shorncliffe"
+ },
+ {
+   "suburb": "Sinnamon Park"
+ },
+ {
+   "suburb": "South Brisbane"
+ },
+ {
+   "suburb": "Spring Hill"
+ },
+ {
+   "suburb": "St Lucia"
+ },
+ {
+   "suburb": "Stafford"
+ },
+ {
+   "suburb": "Stafford Heights"
+ },
+ {
+   "suburb": "Stones Corner"
+ },
+ {
+   "suburb": "Stretton"
+ },
+ {
+   "suburb": "Sumner"
+ },
+ {
+   "suburb": "Sunnybank"
+ },
+ {
+   "suburb": "Sunnybank Hills"
+ },
+ {
+   "suburb": "Taigum"
+ },
+ {
+   "suburb": "Taringa"
+ },
+ {
+   "suburb": "Tarragindi"
+ },
+ {
+   "suburb": "Teneriffe"
+ },
+ {
+   "suburb": "Tennyson"
+ },
+ {
+   "suburb": "The Gap"
+ },
+ {
+   "suburb": "Tingalpa"
+ },
+ {
+   "suburb": "Toowong"
+ },
+ {
+   "suburb": "Upper Brookfield"
+ },
+ {
+   "suburb": "Upper Kedron"
+ },
+ {
+   "suburb": "Upper Mt Gravatt"
+ },
+ {
+   "suburb": "Virginia"
+ },
+ {
+   "suburb": "Wacol"
+ },
+ {
+   "suburb": "Wakerley"
+ },
+ {
+   "suburb": "Wavell Heights"
+ },
+ {
+   "suburb": "West End"
+ },
+ {
+   "suburb": "Westlake"
+ },
+ {
+   "suburb": "Willawong"
+ },
+ {
+   "suburb": "Wilston"
+ },
+ {
+   "suburb": "Windsor"
+ },
+ {
+   "suburb": "Wishart"
+ },
+ {
+   "suburb": "Woolloongabba"
+ },
+ {
+   "suburb": "Wooloowin"
+ },
+ {
+   "suburb": "Wynnum"
+ },
+ {
+   "suburb": "Wynnum West"
+ },
+ {
+   "suburb": "Yeerongpilly"
+ },
+ {
+   "suburb": "Yeronga"
+ },
+ {
+   "suburb": "Zillmere"
+ }
+]
