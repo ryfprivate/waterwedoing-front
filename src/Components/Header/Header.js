@@ -5,7 +5,7 @@ const NavBar = styled.div`
   position: fixed;
   width: 100vw;
   text-align: left;
-  background-color: gainsboro;
+  background-color: #fff;
   padding: 10px 5px;
   display: grid;
   grid-template-columns: auto 1fr;
