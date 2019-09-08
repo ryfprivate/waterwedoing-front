@@ -6,6 +6,7 @@ import MenuItem from '@material-ui/core/MenuItem'
 import FormControl from '@material-ui/core/FormControl'
 import Select from '@material-ui/core/Select'
 import Button from '../Button'
+import styled from 'styled-components'
 
 const suburbArray = []
 
@@ -14,14 +15,19 @@ suburbs.map((value, key) => {
     return key
 })
 
+const Form = styled.form`
+    margin: 10%;
+`
+
 const useStyles = makeStyles(theme => ({
     button: {
         display: 'block',
         marginTop: theme.spacing(2),
     },
     formControl: {
-        margin: theme.spacing(1),
-        minWidth: 120,
+        display: 'flex',
+        width: 200,
+        margin: '3% auto',
     },
 }))
 
@@ -44,7 +50,7 @@ const FormInput = () => {
     }
 
     return (
-        <form autoComplete="off">
+        <Form autoComplete="off">
             <Button className={classes.button} onClick={handleOpen}>
                 Select your commute destination
             </Button>
@@ -72,8 +78,10 @@ const FormInput = () => {
                     })}
                 </Select>
             </FormControl>
-            <Button className={classes.button}>Submit</Button>
-        </form>
+            <Button color="primary" className={classes.button}>
+                Submit
+            </Button>
+        </Form>
     )
 }
 
