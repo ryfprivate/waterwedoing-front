@@ -1,6 +1,7 @@
 import React from 'react'
 import FormInput from './Components/FormInput'
 import './App.css'
+import callApi from './services/callApi'
 
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 
@@ -10,17 +11,21 @@ class App extends React.Component {
         this.state = {
             inSelect: true,
             chosenSuburb: '',
+            url: '',
         }
         this.onButtonSubmit = this.onButtonSubmit.bind(this)
     }
 
     onButtonSubmit(result) {
-        console.log('result: ', result)
         if (!result) {
             console.log('failed: ', result)
             return
         }
-        this.setState({ inSelect: false, chosenSuburb: result })
+        this.setState({
+            inSelect: false,
+            chosenSuburb: result,
+            url: callApi(result),
+        })
     }
 
     render() {
@@ -31,7 +36,9 @@ class App extends React.Component {
                         <FormInput onSubmit={this.onButtonSubmit} />
                     ) : (
                         <div>
-                            <h1>{this.state.chosenSuburb}</h1>
+                            <a href={this.state.url}>
+                                {this.state.chosenSuburb}
+                            </a>
                         </div>
                     )}
                 </div>
