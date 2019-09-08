@@ -1,26 +1,50 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import FormInput from './Components/FormInput'
+import './App.css'
+import callApi from './services/callApi'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
+
+class App extends React.Component {
+    constructor(props) {
+        super(props)
+        this.state = {
+            inSelect: true,
+            chosenSuburb: '',
+            url: '',
+        }
+        this.onButtonSubmit = this.onButtonSubmit.bind(this)
+    }
+
+    onButtonSubmit(result) {
+        if (!result) {
+            console.log('failed: ', result)
+            return
+        }
+        this.setState({
+            inSelect: false,
+            chosenSuburb: result,
+            url: callApi(result),
+        })
+    }
+
+    render() {
+        return (
+            <Router>
+                <div>
+                    {this.state.inSelect ? (
+                        <FormInput onSubmit={this.onButtonSubmit} />
+                    ) : (
+                        <div>
+                            <a href={this.state.url}>
+                                {this.state.chosenSuburb}
+                            </a>
+                        </div>
+                    )}
+                </div>
+            </Router>
+        )
+    }
 }
 
-export default App;
+export default App
