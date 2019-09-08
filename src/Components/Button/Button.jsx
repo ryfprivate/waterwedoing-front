@@ -8,10 +8,10 @@ const StyledButton = styled(Button)`
     }
 `
 
-const BasicButton = ({ label, color }) => {
+const BasicButton = ({ children, color, onClick }) => {
     return (
-        <StyledButton variant="outlined" color={color}>
-            {label}
+        <StyledButton variant="outlined" color={color} onClick={onClick}>
+            {children}
         </StyledButton>
     )
 }
