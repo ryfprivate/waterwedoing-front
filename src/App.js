@@ -16,7 +16,7 @@ const PageBody = styled.div`
   /* margin-top: 10vh; */
   /* border: 1px solid blue; */
   /* height: 80vh; */
-  padding: 10px;
+  padding: 1rem;
 `;
 
 function App() {
