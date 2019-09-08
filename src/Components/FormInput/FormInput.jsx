@@ -36,10 +36,10 @@ const FormInput = ({ onSubmit }) => {
     const [suburb, setSuburb] = React.useState('')
     const [open, setOpen] = React.useState(false)
 
-    function handleChange(event) {
-        setSuburb(event.target.value)
-        console.log('suburb: ', suburb)
-        console.log('actual value: ', event.target.value)
+    const handleChange = event => {
+        let value = event.target.value
+        setSuburb(value)
+        onSubmit(value)
     }
 
     function handleClose() {
@@ -79,15 +79,16 @@ const FormInput = ({ onSubmit }) => {
                     })}
                 </Select>
             </FormControl>
-            <Button
+            {/* <Button
                 color="primary"
                 className={classes.button}
-                onClick={suburb => {
-                    onSubmit(suburb)
+                onClick={test => {
+                    console.log('submitted ', test)
+                    onSubmit(test)
                 }}
             >
                 Submit
-            </Button>
+            </Button> */}
         </Form>
     )
 }

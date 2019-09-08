@@ -27,18 +27,13 @@ class App extends React.Component {
         return (
             <Router>
                 <div>
-                    <FormInput
-                        onSubmit={() => {
-                            this.onButtonSubmit(this.state.chosenSuburb)
-                        }}
-                    />
-                    {/* {this.state.inSelect ? (
+                    {this.state.inSelect ? (
                         <FormInput onSubmit={this.onButtonSubmit} />
                     ) : (
                         <div>
                             <h1>{this.state.chosenSuburb}</h1>
                         </div>
-                    )} */}
+                    )}
                 </div>
             </Router>
         )
