@@ -4,7 +4,8 @@ import styled from 'styled-components'
 
 const StyledButton = styled(Button)`
     && {
-        margin: 13px;
+        margin: auto;
+        display: block;
     }
 `
 
