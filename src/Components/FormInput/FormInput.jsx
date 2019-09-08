@@ -31,7 +31,7 @@ const useStyles = makeStyles(theme => ({
     },
 }))
 
-const FormInput = () => {
+const FormInput = ({ onSubmit }) => {
     const classes = useStyles()
     const [suburb, setSuburb] = React.useState('')
     const [open, setOpen] = React.useState(false)
@@ -39,6 +39,7 @@ const FormInput = () => {
     function handleChange(event) {
         setSuburb(event.target.value)
         console.log('suburb: ', suburb)
+        console.log('actual value: ', event.target.value)
     }
 
     function handleClose() {
@@ -78,7 +79,13 @@ const FormInput = () => {
                     })}
                 </Select>
             </FormControl>
-            <Button color="primary" className={classes.button}>
+            <Button
+                color="primary"
+                className={classes.button}
+                onClick={suburb => {
+                    onSubmit(suburb)
+                }}
+            >
                 Submit
             </Button>
         </Form>
