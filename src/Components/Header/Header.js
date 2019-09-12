@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const NavBar = styled.div`
-  position: fixed;
+  /* position: fixed; */
   width: 100vw;
   text-align: left;
   background-color: #fff;
